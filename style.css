@@ -176,8 +176,8 @@ button.add-to-cart:hover {
     font-size: 16px; /* Define o tamanho da fonte do texto do botão */
     cursor: pointer; /* Altera o cursor do mouse indicando que é clicável */
     position: fixed; /* Define a posição do botão como fixa */
-    bottom: 50px; /* Posiciona o botão no fundo da janela de visualização */
-    right: 30px; /* Posiciona o botão à direita da janela de visualização */
+    bottom: 90vh;   /* 2% da altura da tela */
+    right: 1vw;
     border-radius: 8px; /* Adiciona cantos arredondados ao botão */
     z-index: 100; /* Define a sobreposição do botão, garantindo que ele fique acima de outros elementos com valores de z-index menores */
 }
@@ -360,7 +360,7 @@ h3 {
 }
 
 /* Estilos responsivos para telas menores */
-@media (max-width: 480px) {
+@media (max-width: 950px) {
     body {
         font-size: 13px;
     }
@@ -412,10 +412,10 @@ h3 {
         font-size: 16px; /* Define o tamanho da fonte do texto do botão */
         cursor: pointer; /* Altera o cursor do mouse indicando que é clicável */
         position: fixed; /* Define a posição do botão como fixa */
-        bottom: 42%; /* Posiciona o botão no fundo da janela de visualização */
-        right: 1%; /* Posiciona o botão à direita da janela de visualização */
+        bottom: 20vh;   /* 2% da altura da tela */
+        right: 1vw;    /* 2% da largura da tela */
         border-radius: 8px; /* Adiciona cantos arredondados ao botão */
-        z-index: 100; /* Define a sobreposição do botão, garantindo que ele fique acima de outros elementos com valores de z-index menores */
+        z-index: 1000; /* Define a sobreposição do botão, garantindo que ele fique acima de outros elementos com valores de z-index menores */          
     }
 
     #cart-items li {
