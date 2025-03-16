@@ -408,14 +408,14 @@ h3 {
         background-color: #c34a89; /* Define a cor de fundo do botão */
         color: white; /* Define a cor do texto do botão */
         border: none; /* Remove qualquer borda padrão do botão */
-        padding: 10px 10px; /* Adiciona um preenchimento interno de 15px na vertical e 20px na horizontal */
+        padding: 10px 10px; /* Adiciona um preenchimento interno de 10px na vertical e 10px na horizontal */
         font-size: 16px; /* Define o tamanho da fonte do texto do botão */
         cursor: pointer; /* Altera o cursor do mouse indicando que é clicável */
         position: fixed; /* Define a posição do botão como fixa */
-        bottom: 20vh;   /* 2% da altura da tela */
-        right: 1vw;    /* 2% da largura da tela */
+        bottom: 80%;   /* 80% da altura da tela */
+        right: 1vw;    /* 1VW da largura da tela */
         border-radius: 8px; /* Adiciona cantos arredondados ao botão */
-        z-index: 1000; /* Define a sobreposição do botão, garantindo que ele fique acima de outros elementos com valores de z-index menores */          
+        z-index: 1000; /* Define a sobreposição do botão, garantindo que ele fique acima de outros elementos com valores de z-index menores */
     }
 
     #cart-items li {
